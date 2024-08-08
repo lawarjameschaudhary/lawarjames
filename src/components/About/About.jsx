@@ -2,24 +2,24 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='bg-black p-6 md:p-16 lg:p-28 flex flex-col items-center h-[100vh]'>
-      <div className='text-white text-3xl md:text-5xl lg:text-7xl flex justify-center mt-10 md:mt-16 pb-4 md:pb-6 lg:pb-9'>
+    <div className='bg-black p-6 flex flex-col items-center pb-28 border-b-[0.1px] border-blue-300'>
+      <div className='text-white font-extrabold text-3xl md:text-5xl lg:text-7xl flex justify-center mt-10 md:mt-16 pb-4'>
         <h1 className='bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text'>Experience</h1>
       </div>
-      <div className='sm:w-screen md:h-[80%] md:w-[200%] flex flex-col items-center'>
-        <div className='bg-white w-full md:w-3/4 lg:w-1/2 flex flex-col border-2 rounded-3xl shadow-lg'>
-          <div className='flex flex-col md:flex-row justify-between items-center p-4 md:p-8'>
-            <div className='flex items-center bg-gray-300 rounded-full gap-4 p-4'>
-              <div className='w-16 md:w-20'>
-                <img src="./src/assets/info.png" alt="info" className='w-full' />
+      <div className='w-full flex flex-col mt-8 sm:mt-28 items-center'>
+        <div className='bg-white w-full flex flex-col border-2 rounded-3xl shadow-lg max-w-5xl'>
+          <div className='flex flex-col md:flex-row justify-between items-center p-4 md:p-8  md:gap-2'>
+            <div className='flex items-center bg-gray-300 rounded-full p-2 w-full md:w-[500px] md:gap-4 md:p-4'>
+              <div className=''>
+                <img src="./src/assets/info.png" alt="info" className='w-[50px] md:w-[70px]' />
               </div>
               <div className='text-left'>
-                <h1 className='font-extrabold text-lg md:text-xl lg:text-2xl leading-5 md:leading-7 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text'>
+                <h1 className='font-extrabold text-md md:text-xl lg:text-2xl leading-5 md:leading-7 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text'>
                   Obtained Infotech
                 </h1>
                 <div className='flex items-center gap-2'>
                   <img src="./src/assets/map.png" alt="location" className='w-4 md:w-5' />
-                  <p className='font-bold text-sm md:text-base'>Narayangarh, Chitwan, Nepal</p>
+                  <p className='font-semibold text-xs md:text-xl'>Narayangarh, Chitwan, Nepal</p>
                 </div>
               </div>
             </div>
@@ -60,9 +60,6 @@ const About = () => {
               </h1>
             </div>
           </div>
-        </div>
-        <div className='second-class mt-8'>
-          {/* Add content here if needed */}
         </div>
       </div>
     </div>
