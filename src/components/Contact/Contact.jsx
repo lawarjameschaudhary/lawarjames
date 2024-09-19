@@ -124,7 +124,7 @@ const Contact = () => {
               <div className="w-full flex justify-center mt-6">
                 <button
                   type="submit"
-                  className='bg-blue-600 text-white text-xl font-bold sm:text-xl border-none rounded-2xl px-12 py-3 hover:text-gray-300 hover:bg-blue-500 hover:shadow-black hover:shadow-xl shadow-md transition-all duration-700'
+                  className='bg-blue-600 text-white text-xl font-bold sm:text-xl border-none rounded-2xl px-12 py-3 hover:bg-black border-2 border-blue-5000 hover:border-blue-600 hover:shadow-xl shadow-md transition-all duration-700'
                 >
                   Submit
                 </button>

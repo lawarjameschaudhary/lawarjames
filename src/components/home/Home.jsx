@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className='bg-[url(./src/assets/bg.jpg)] bg-cover bg-center text-white font-Fanta leading-9  pl-12 pr-12 pt-28 xl:pt-[15%] md:pt-40 border-b-[0.1px] border-blue-300 pb-28'>
+    <div className='bg-[url(./src/assets/bg.jpg)] bg-cover bg-center text-white font-Fanta leading-9  pl-12 pr-12 pt-20 xl:pt-24 md:pt-40 border-b-[0.1px] border-blue-300 pb-20'>
       <div className='flex flex-col items-center justify-center h-full gap-8 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'>
         <h1 className='text-3xl sm:text-4xl md:text-5xl text-center font-bold'>
           Hello, I am{' '}

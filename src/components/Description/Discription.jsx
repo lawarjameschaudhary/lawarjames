@@ -2,7 +2,7 @@ import React from 'react'
 
 const Discription = () => {
   return (
-    <div id='/about' className='bg-black flex flex-col items-center justify-center py-28 border-blue-300-300 border-b-[0.1px]'>
+    <div id='/about' className='bg-black flex flex-col items-center justify-center py-20 md:py-28 border-blue-300-300 border-b-[0.1px]'>
            <div className='text-white font-extrabold text-3xl md:text-5xl lg:text-7xl flex justify-center  pb-4 md:pb-6 lg:pb-9'>
         <h1 className='bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text'>
           About Me

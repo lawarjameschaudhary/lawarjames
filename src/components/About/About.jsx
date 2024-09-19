@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='bg-black p-6 flex flex-col items-center pb-28 border-b-[0.1px] border-blue-300'>
+    <div className='bg-black p-6 flex flex-col items-center pb-20 md:pb-28 border-b-[0.1px] border-blue-300'>
       <div className='text-white font-extrabold text-3xl md:text-5xl lg:text-7xl flex justify-center mt-10 md:mt-16 pb-4'>
         <h1 className='bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text'>Experience</h1>
       </div>
