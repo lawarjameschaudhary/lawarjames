@@ -13,7 +13,7 @@ const Navbar = ({ scrollToSection }) => {
         <div className='text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'>
           Lawar James Chaudhary
         </div>
-        <div className='bg-black flex items-center rounded-full gap-7 xl:pl-5 sm:p-0 shadow-md shadow-black opacity-90'>
+        <div className='bg-black flex items-center md:pl-5 rounded-full gap-7 xl:pl-5 sm:p-0 shadow-md shadow-black opacity-90'>
           <h1 className='text-white text-2xl hidden sm:block'>Menu</h1>
           <button
             onClick={toggleButton}

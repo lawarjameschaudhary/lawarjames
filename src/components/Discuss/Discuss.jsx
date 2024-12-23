@@ -3,7 +3,7 @@ import React from 'react';
 const Discuss = ({ scrollToSection }) => {
   
   return (
-    <div className='bg-black pt-20 md:pt-28 pb-20 md:pb-28 flex flex-col items-center border-b border-blue-300'>
+    <div className='bg-black pt-20 md:px-28 md:pt-28 pb-20 md:pb-28 flex flex-col items-center border-b border-blue-300'>
       <div className='design-text text-4xl sm:text-5xl md:text-6xl font-extrabold text-center'>
         <h1 className='bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text'>
           Discuss Project

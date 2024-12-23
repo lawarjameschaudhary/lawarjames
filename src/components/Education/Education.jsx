@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => {
   return (
-    <div id='education' className='flex flex-col bg-black p-4 pb-20 md:28 border-b-[0.1px] border-blue-300'>
+    <div id='education' className='flex flex-col bg-black pb-20 border-b-[0.1px] border-blue-300'>
       <div className='text-white font-extrabold text-3xl md:text-5xl lg:text-7xl flex justify-center mt-12 md:mt-20 lg:mt-28 pb-4 md:pb-6 lg:pb-9'>
         <h1 className='bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text'>
           Education
