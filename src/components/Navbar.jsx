@@ -24,7 +24,7 @@ const Navbar = ({ scrollToSection }) => {
             className="bg-gradient-to-r from-blue-300 via-blue-600 to-blue-900 rounded-full p-2 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 focus:outline-none"
           >
             <img
-              src="./src/assets/navigation-bar.png"
+              src="https://cdn-icons-png.flaticon.com/128/2976/2976215.png"
               alt="navigation bar"
               className="w-[30px]"
             />
@@ -50,14 +50,14 @@ const Navbar = ({ scrollToSection }) => {
           <ul className="space-y-4">
             {[
               'Home',
-              'Description',
+              'Discription',
               'Education',
               'Projects',
-              'About Me',
+              'About',
               'Skills',
               'Discuss',
-              'Contact Me',
-              'Get In Touch',
+              'Contact',
+              'GetInTouch'
             ].map((item, index) => (
               <li key={index}>
                 <button

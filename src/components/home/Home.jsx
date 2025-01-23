@@ -2,7 +2,7 @@
 
   const Home = ({ scrollToSection }) => {
     return (
-      <div className='bg-[url(https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg?t=st=1737648519~exp=1737652119~hmac=aaf573fdceb79324ad45f25c487b516eb460c05e31c935a3e4d397042b208439&w=2000)] bg-cover bg-center text-white font-Fanta leading-9  pl-12 pr-12 pt-20 xl:pt-52 md:pt-40 border-b-[0.1px] border-blue-300 pb-20'>
+      <div className='bg-[url(https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg?ga=GA1.1.255780563.1737648427&semt=ais_hybrid)] bg-cover bg-center text-white font-Fanta leading-9  pl-12 pr-12 pt-20 xl:pt-52 md:pt-40 border-b-[0.1px] border-blue-300 pb-20'>
         <div className='flex flex-col items-center justify-center h-full gap-8 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'>
           <h1 className='text-3xl sm:text-4xl md:text-5xl text-center font-bold'>
             Hello, I am{' '}
