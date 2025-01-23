@@ -56,8 +56,7 @@ const Navbar = ({ scrollToSection }) => {
               'About',
               'Skills',
               'Discuss',
-              'Contact',
-              'GetInTouch',
+              'Contact'
             ].map((item, index) => (
               <li key={index}>
                 <button
