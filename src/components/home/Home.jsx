@@ -34,7 +34,7 @@
               </div>
               <div className='border-2 p-1 md:p-4 rounded-full text-center text-black bg-white flex items-center gap-1 md:gap-5 absolute top-[25%] sm:top-[20%] md:top-[15%] sm:left-4 md:-left-0 xl:-left-[5%]'>
                 <div className='Logo'><img src="./src/assets/react.svg" alt="" className='w-6 md:w-9' /></div>
-                <div className=' text-sm md:text-3xl'>React JS</div>
+                <div className=' text-sm md:text-3xl'>ReactJS</div>
               </div>
               <div className='border-2 p-1 md:p-4 rounded-full text-center bg-white flex text-black items-center gap-1 md:gap-5 absolute top-[45%] md:top-[45%] -right-[5%] md:-right-[10%] lg:-right-[20%] xl:-right-[35%]' >
                 <div className='Logo'><img src="./src/assets/javascript.png" alt="" className='w-6 md:w-9' /></div>
