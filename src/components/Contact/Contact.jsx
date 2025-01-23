@@ -44,8 +44,8 @@ const Contact = () => {
   };
 
   return (
-    <div className='bg-black flex flex-col items-center py-36 relative'>
-      <div className='bg-blue-50 w-[95%] md:w-[80%] rounded-3xl flex flex-col items-center gap-10 md:gap-20 py-12'>
+    <div className='bg-black flex flex-col items-center py-36 relative '>
+      <div className='bg-blue-50 w-[95%] md:w-[80%] rounded-3xl flex flex-col items-center gap-10 md:gap-20 py-12 hover:scale-105 transition-transform duration-300 ease-in-out'>
         <div className="heading-text">
           <h1 className='text-3xl sm:text-4xl md:text-5xl font-semibold mt-4'>
             Contact Me

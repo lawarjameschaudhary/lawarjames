@@ -27,7 +27,7 @@ const Discuss = ({ scrollToSection }) => {
               <img src="./src/assets/download.png" alt="download" className='w-8 sm:w-10' />
             </div>
             <div className='text-div text-xl sm:text-2xl font-medium'>
-              <h1 className='text-blue-700'>Resume</h1>
+              <h1 className='text-blue-700'><a href="https://internepal.com.np/customer/2025-01-23-07-36-28-Lawar-James-Chaudhary.pdf">Resume</a></h1>
             </div>
           </div>
           <div className='first-button bg-gray-300 flex rounded-full px-4 sm:px-5 py-3 sm:py-4 items-center gap-3 hover:bg-white hover:text-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:white duration-300 ...'>
@@ -35,7 +35,7 @@ const Discuss = ({ scrollToSection }) => {
               <img src="./src/assets/message.png" alt="message" className='w-8 sm:w-10' />
             </div>
             <div className='text-div text-xl sm:text-2xl font-medium'>
-              <h1 className='text-blue-700 '><button onClick={() => scrollToSection('contact')}>Discuss Project</button></h1>
+              <h1 className='text-blue-700 '><button><a href="https://www.linkedin.com/in/lawar-james-chaudhary-404a74284/">Discuss Project</a></button></h1>
             </div>
           </div>
         </div>

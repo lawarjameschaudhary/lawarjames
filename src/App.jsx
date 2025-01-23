@@ -8,7 +8,7 @@ import Discuss from './components/Discuss/Discuss';
 import Contact from './components/Contact/Contact';
 import Discription from './components/Description/Discription';
 import GetInTouch from './components/GetInTouch/GetInTouch';
-import Project from './components/Projects/Project';
+import Projects from './components/Projects/Projects';
 
 const App = () => {
   const homeRef = useRef(null);
@@ -26,7 +26,7 @@ const App = () => {
       home: homeRef,
       discription: discriptionRef,
       education: educationRef,
-      project: projectRef,
+      projects: projectRef,
       about: aboutRef,
       skills: skillsRef,
       discuss: discussRef,
@@ -43,7 +43,7 @@ const App = () => {
       <div ref={homeRef}><Home /></div>
       <div ref={discriptionRef}><Discription /></div>
       <div ref={educationRef}><Education /></div>
-      <div ref={projectRef}><Project /></div>
+      <div ref={projectRef}><Projects /></div>
       <div ref={aboutRef}><About /></div>
       <div ref={skillsRef}><Skills /></div>
       <div ref={discussRef}><Discuss /></div>
