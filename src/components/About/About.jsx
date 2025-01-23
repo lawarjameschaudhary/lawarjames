@@ -18,7 +18,7 @@ const About = () => {
                   Obtained Infotech
                 </h1>
                 <div className='flex items-center gap-2'>
-                  <img src="./src/assets/map.png" alt="location" className='w-4 md:w-5' />
+                  <img src="https://cdn-icons-png.flaticon.com/128/149/149060.png" alt="location" className='w-4 md:w-5' />
                   <p className='font-semibold text-xs md:text-xl'>Narayangarh, Chitwan, Nepal</p>
                 </div>
               </div>
