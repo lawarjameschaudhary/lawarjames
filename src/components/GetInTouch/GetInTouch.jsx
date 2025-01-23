@@ -22,6 +22,12 @@ const GetInTouch = () => {
             <a href="https://www.instagram.com/laiberchaudhary/">Instagram</a>
           </div>
         </div>
+        <div className="bg-white flex rounded-full px-4 py-2 md:w-64 md:px-5 md:py-4 items-center gap-1 md:gap-3 hover:scale-105 transition-transform duration-300 ease-in-out">
+          <img src="https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png" alt="HTML" className='w-8 md:w-12' />
+          <div className="text-md text-black md:text-3xl font-extrabold">
+            <a href="https://github.com/lawarjameschaudhary">Github</a>
+          </div>
+        </div>
         <div className="bg-white flex rounded-full md:w-64 px-4 py-2 md:px-5 md:py-4 items-center gap-1 md:gap-3 hover:scale-105 transition-transform duration-300 ease-in-out">
           <img src="https://e7.pngegg.com/pngimages/991/568/png-clipart-facebook-logo-computer-icons-facebook-logo-facebook-thumbnail.png" alt="JavaScript" className='w-8 md:w-12' />
           <div className="text-md text-sky-700 md:text-3xl font-extrabold">
