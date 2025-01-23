@@ -14,7 +14,7 @@ const Discription = () => {
         <div className="headier-section flex gap-8 md:gap-14 items-center">
 
        <div className="icon-section border-2 rounded-full border-blue-500 p-2">
-       <img src="./src/assets/image.png" alt="Developer-iamge" className='w-24 md:w-32  mx-auto rounded-full' />
+       <img src="https://lh3.googleusercontent.com/a/ACg8ocJq5BfZoZH-Qbs_FDCrHavshXm9-LTvVPSrPvHwQTvbu7hVdY0I=s576-c-no" alt="Developer-iamge" className='w-24 md:w-32  mx-auto rounded-full' />
        </div>
        
        <div className='text-white font-extrabold text-3xl md:text-5xl lg:text-6xl flex items-center text-center justify-center'>
@@ -26,25 +26,25 @@ const Discription = () => {
         <div className="icons-section text-white flex gap-5 flex-wrap mt-10">
         <div className="first-button bg-gray-300 flex rounded-full px-2 md:px-5 py-2 md:py-4 items-center gap-1 md:gap-3">
                 <div className="image-div">
-                <img src="./src/assets/headphones.png" alt="photoshop" className='w-[20px] md:w-[40px]' />
+                <img src="https://cdn-icons-png.flaticon.com/128/10874/10874038.png" alt="photoshop" className='w-[20px] md:w-[40px]' />
                 </div>
                 <div className='text-blue-500 text-md md:text-3xl'>Listening Music</div>
             </div>
         <div className="first-button bg-gray-300 flex rounded-full px-2 md:px-5 py-3 md:py-4 items-center gap-1 md:gap-3">
                 <div className="image-div">
-                <img src="./src/assets/car.png" alt="photoshop" className='w-[20px] md:w-[40px]' />
+                <img src="https://cdn-icons-png.flaticon.com/128/3089/3089627.png" alt="photoshop" className='w-[20px] md:w-[40px]' />
                 </div>
                 <div className='text-blue-500 text-md md:text-3xl'>Travelling</div>
             </div>
             <div className="first-button bg-gray-300 flex rounded-full px-2 md:px-5 py-3 md:py-4 items-center gap-1 md:gap-3">
                 <div className="image-div">
-                <img src="./src/assets/money.png" alt="photoshop" className='w-[20px] md:w-[40px]' />
+                <img src="https://cdn-icons-png.flaticon.com/128/12740/12740855.png" alt="photoshop" className='w-[20px] md:w-[40px]' />
                 </div>
                 <div className='text-green-500 text-md md:text-3xl'>Money</div>
             </div>
         <div className="first-button bg-gray-300 flex rounded-full px-2 md:px-5 py-3 md:py-4 items-center gap-1 md:gap-3">
                 <div className="image-div">
-                <img src="./src/assets/mountain.png" alt="photoshop" className='w-[20px] md:w-[40px]' />
+                <img src="https://cdn-icons-png.flaticon.com/128/3337/3337973.png" alt="photoshop" className='w-[20px] md:w-[40px]' />
                 </div>
                 <div className='text-green-500 text-md md:text-3xl'>Mountain</div>
             </div>

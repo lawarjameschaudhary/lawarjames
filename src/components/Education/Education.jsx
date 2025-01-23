@@ -13,11 +13,11 @@ const Education = () => {
           <div className='flex flex-col gap-4 md:gap-6'>
             <div className='flex flex-col md:flex-row justify-center gap-4 md:justify-between items-center px-2 md:px-6 lg:px-10 pt-4 md:pt-8 lg:pt-12'>
               <div className='flex items-center gap-2 border-2 rounded-full px-3 py-2 md:px-4 md:py-3 bg-gray-300 text-blue-500 text-center'>
-                <img src="./src/assets/date.png" alt="date" className='w-6 h-3 md:w-8 md:h-4' />
+                <img src="https://cdn-icons-png.flaticon.com/128/18784/18784553.png" alt="date" className='w-6 h-3 md:w-8 md:h-4' />
                 <h1 className='font-extrabold text-xs md:text-sm lg:text-base leading-4 md:leading-5 lg:leading-7'>2022-2025</h1>
               </div>
               <div className='flex items-center border-2 border-gray-300 rounded-full px-3 py-2 md:px-4 md:py-3 text-center bg-gray-300'>
-                <img src="./src/assets/graduation.png" alt="graduation" className='w-6 h-6 md:w-8 md:h-8' />
+                <img src="https://cdn-icons-png.flaticon.com/128/10484/10484468.png" alt="graduation" className='w-6 h-6 md:w-8 md:h-8' />
                 <h1 className='font-extrabold text-xs md:text-sm lg:text-base leading-4 md:leading-5 lg:leading-7'>Graduation</h1>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Education = () => {
               <div className='location-uni mt-3 flex flex-col gap-4 md:gap-1 lg:gap-2'>
                 <div className='university-section flex items-center gap-3 md:gap-4 lg:gap-5'>
                   <div className='bg-white p-1 rounded-full'>
-                    <img src="./src/assets/school.png" alt="university" className='w-4 h-6 md:w-5 md:h-7 lg:w-6 lg:h-7'/>
+                    <img src="https://cdn-icons-png.flaticon.com/128/2231/2231696.png" alt="university" className='w-4 h-6 md:w-5 md:h-7 lg:w-6 lg:h-7'/>
                   </div>
                   <div className='text-sm md:text-base lg:text-lg leading-5 md:leading-6 lg:leading-7 font-bold'>
                     Tribhuvan University
@@ -44,7 +44,7 @@ const Education = () => {
                 </div>
                 <div className='location-section flex items-center gap-3 md:gap-4 lg:gap-5'>
                   <div className='bg-white p-1 rounded-full'>
-                    <img src="./src/assets/map.png" alt="location" className='w-4 h-6 md:w-5 md:h-7 lg:w-6 lg:h-7'/>
+                    <img src="https://cdn-icons-png.flaticon.com/128/149/149060.png" alt="location" className='w-4 h-6 md:w-5 md:h-7 lg:w-6 lg:h-7'/>
                   </div>
                   <div className='text-sm md:text-base lg:text-lg leading-5 md:leading-6 lg:leading-7 font-bold'>
                     Kritipur, Kathmandu, Nepal

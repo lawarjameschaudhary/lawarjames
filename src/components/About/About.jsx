@@ -11,7 +11,7 @@ const About = () => {
           <div className='flex flex-col md:flex-row justify-between items-center p-4 md:p-8  md:gap-2'>
             <div className='flex items-center bg-gray-300 rounded-full p-2 w-full md:w-[500px] md:gap-4 md:p-4'>
               <div className=''>
-                <img src="./src/assets/info.png" alt="info" className='w-[50px] md:w-[70px]' />
+                <img src="https://cdn-icons-png.flaticon.com/128/2695/2695907.png" alt="info" className='w-[50px] md:w-[70px]' />
               </div>
               <div className='text-left'>
                 <h1 className='font-extrabold text-md md:text-xl lg:text-2xl leading-5 md:leading-7 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text'>
@@ -25,7 +25,7 @@ const About = () => {
             </div>
             <div className='flex items-center bg-gray-300 px-4 py-2 rounded-full gap-4 mt-4 md:mt-0'>
               <div className='w-8 md:w-10'>
-                <img src="./src/assets/date.png" alt="date" className='w-full' />
+                <img src="https://cdn-icons-png.flaticon.com/128/18784/18784553.png" alt="date" className='w-full' />
               </div>
               <div>
                 <h1 className='font-extrabold text-sm md:text-base leading-5 md:leading-7'>FEB 2023-NOV 2023</h1>
@@ -34,7 +34,7 @@ const About = () => {
           </div>
           <div className="flex items-center gap-4 md:gap-6 px-4 md:px-8 mt-4">
             <div className="w-8 md:w-10">
-              <img src="./src/assets/coding.png" alt="coding" className='w-full' />
+              <img src="https://cdn-icons-png.flaticon.com/128/3242/3242257.png" alt="coding" className='w-full' />
             </div>
             <div>
               <h1 className='font-extrabold text-lg md:text-xl lg:text-2xl'>Web Developer</h1>
@@ -42,19 +42,19 @@ const About = () => {
           </div>
           <div className="text-part-about mt-4 p-4 font-bold">
             <div className='flex items-start gap-4 mb-4'>
-              <img src="./src/assets/right.png" alt="arrow" className='w-6 md:w-8' />
+              <img src="https://cdn-icons-png.flaticon.com/128/16821/16821067.png" alt="arrow" className='w-6 md:w-8' />
               <h1 className='text-sm md:text-base lg:text-lg'>
                 Designed numerous responsive themes using HTML/CSS and ReactJS, ensuring user-friendly and visually appealing web interfaces.
               </h1>
             </div>
             <div className='flex items-start gap-4 mb-4'>
-              <img src="./src/assets/right.png" alt="arrow" className='w-6 md:w-8' />
+              <img src="https://cdn-icons-png.flaticon.com/128/16821/16821067.png" alt="arrow" className='w-6 md:w-8' />
               <h1 className='text-sm md:text-base lg:text-lg'>
                 Successfully integrated REST APIs, enhancing website functionality and user experience.
               </h1>
             </div>
             <div className='flex items-start gap-4'>
-              <img src="./src/assets/right.png" alt="arrow" className='w-6 md:w-8' />
+              <img src="https://cdn-icons-png.flaticon.com/128/16821/16821067.png" alt="arrow" className='w-6 md:w-8' />
               <h1 className='text-sm md:text-base lg:text-lg'>
                 Proficiently worked with PHP and MySQL, handling CRUD operations using PHP to manage and manipulate data effectively.
               </h1>
