@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact';
 import Discription from './components/Description/Discription';
 import GetInTouch from './components/GetInTouch/GetInTouch';
 import Projects from './components/Projects/Projects';
+import Copyright from './components/Copyright/Copyright';
 
 const App = () => {
   const homeRef = useRef(null);
@@ -49,6 +50,7 @@ const App = () => {
       <div ref={discussRef}><Discuss /></div>
       <div ref={contactRef}><Contact /></div>
       <div ref={getInTouchRef}><GetInTouch /></div>
+      <Copyright />
     </div>
   );
 };
