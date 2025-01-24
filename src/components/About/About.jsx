@@ -10,7 +10,7 @@ const About = () => {
 
   return (
     <div className="bg-black px-6 md:px-8 lg:px-12 py-10 flex flex-col items-center pb-20 md:pb-28 border-b-[0.1px] border-blue-300">
-      {/* Title Section */}
+      
       <div
         className="text-white font-extrabold text-3xl md:text-5xl lg:text-7xl flex justify-center mt-10 md:mt-16 pb-4"
         data-aos="fade-up"
@@ -20,14 +20,14 @@ const About = () => {
         </h1>
       </div>
 
-      {/* Experience Section */}
+      
       <div
         className="w-full flex flex-col mt-8 sm:mt-16 items-center"
         data-aos="fade-up"
         data-aos-delay="200"
       >
         <div className="bg-white w-full flex flex-col border-2 rounded-3xl shadow-lg max-w-5xl">
-          {/* Company and Duration */}
+          
           <div
             className="flex flex-col md:flex-row justify-between items-center p-6 md:p-8 gap-4"
             data-aos="zoom-in"
@@ -70,7 +70,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Role */}
+          
           <div
             className="flex items-center gap-4 md:gap-6 px-6 md:px-8 mt-4"
             data-aos="fade-left"
@@ -86,7 +86,7 @@ const About = () => {
             </h1>
           </div>
 
-          {/* Responsibilities */}
+          
           <div
             className="text-part-about mt-6 px-6 md:px-8 pb-6 font-bold"
             data-aos="fade-right"

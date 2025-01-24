@@ -97,7 +97,7 @@ const Contact = () => {
               animate={inView ? 'visible' : 'hidden'}
             >
               <div className="flex flex-col">
-                {/* Name and Email */}
+                
                 <div className="flex flex-col md:flex-row md:gap-12">
                   <motion.div className="w-full mb-4" variants={itemVariants}>
                     <div className="Name-content flex bg-gray-200 rounded-full py-3 px-3 items-center">
@@ -137,7 +137,7 @@ const Contact = () => {
                   </motion.div>
                 </div>
 
-                {/* Phone and College */}
+                
                 <div className="flex flex-col md:flex-row md:gap-12">
                   <motion.div className="w-full mb-4" variants={itemVariants}>
                     <div className="Phone-content flex bg-gray-200 rounded-full py-3 px-3 items-center">
@@ -172,7 +172,6 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Message */}
               <motion.div className="w-full mb-4" variants={itemVariants}>
                 <textarea
                   id="message"
@@ -185,7 +184,7 @@ const Contact = () => {
                 ></textarea>
               </motion.div>
 
-              {/* Error or Success Messages */}
+             
               {formError && (
                 <motion.p
                   className="text-red-500 text-sm mb-4"
@@ -203,7 +202,7 @@ const Contact = () => {
                 </motion.p>
               )}
 
-              {/* Submit Button */}
+              
               <motion.div className="w-full flex justify-center mt-6" variants={itemVariants}>
                 <button
                   type="submit"
