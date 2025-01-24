@@ -31,15 +31,17 @@ const Navbar = ({ scrollToSection }) => {
           </button>
         </div>
 
+        {/* Updated hover styles for desktop navigation */}
         <div className="hidden md:flex gap-8 font-bold text-base lg:text-xl">
           {['Home', 'Projects', 'About', 'Skills', 'Contact'].map((item, index) => (
             <button
               key={index}
               onClick={() => scrollToSection(item.toLowerCase().replace(/ /g, ''))}
-              className="relative text-black hover:text-blue-600 transition-all duration-300 ease-in-out"
+              className="relative text-black transition-all duration-300 ease-in-out group hover:text-blue-600 transform hover:scale-110"
             >
               {item}
-              <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 transition-all duration-300 hover:w-full"></span>
+              {/* Underline effect */}
+              <span className="absolute left-0 bottom-[-2px] w-0 h-[2px] bg-gradient-to-r from-blue-300 to-blue-600 transition-all duration-500 group-hover:w-full"></span>
             </button>
           ))}
         </div>
