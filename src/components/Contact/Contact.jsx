@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 const Contact = () => {
   const form = useRef();
@@ -37,7 +38,6 @@ const Contact = () => {
       await emailjs.sendForm('service_uzkuv7l', 'template_wgckv3s', form.current, '3ERo9wAPnsHLrBSEo');
       setFormSuccess('Email sent successfully!');
       form.current.reset();
-      
     } catch (error) {
       setFormError('Failed to send email.');
       console.error('Failed to send email:', error.text);
@@ -49,48 +49,57 @@ const Contact = () => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.2 },
+      transition: {
+        staggerChildren: 0.2,
+        duration: 0.8,
+      },
     },
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
+    hidden: { opacity: 0, y: 40, scale: 0.95 },
+    visible: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.6, ease: 'easeOut' } },
   };
+
+  // Hook for scroll animations
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
     <motion.div
       className="bg-black flex flex-col items-center py-36 relative"
-      variants={containerVariants}
       initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.3 }} // Trigger animation when 30% of the element is in view
+      animate="visible"
+      exit="hidden"
+      variants={containerVariants}
     >
       <motion.div
-        className="bg-blue-50 w-[95%] md:w-[80%] rounded-3xl flex flex-col items-center gap-10 md:gap-20 py-12 hover:scale-105 transition-transform duration-300 ease-in-out"
-        variants={itemVariants}
+        ref={ref}
+        className="bg-blue-50 w-[95%] md:w-[80%] rounded-3xl flex flex-col items-center gap-10 md:gap-20 py-12 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+        initial="hidden"
+        animate={inView ? 'visible' : 'hidden'}
+        variants={containerVariants}
       >
-        
-        <motion.div className="heading-text" variants={itemVariants}>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-4">
-            Contact Me
-          </h1>
-        </motion.div>
-
-        
-        <motion.div
-          className="form-section flex justify-center items-center w-[100%]"
+        <motion.h1
+          className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-4"
           variants={itemVariants}
         >
+          Contact Me
+        </motion.h1>
+
+        <motion.div className="form-section flex justify-center items-center w-[100%]" variants={itemVariants}>
           <div className="form-content w-[90%] relative">
-            <form ref={form} onSubmit={sendEmail} className="">
+            <motion.form
+              ref={form}
+              onSubmit={sendEmail}
+              className=""
+              variants={containerVariants}
+              initial="hidden"
+              animate={inView ? 'visible' : 'hidden'}
+            >
               <div className="flex flex-col">
-               
-                <motion.div
-                  className="first-form-content flex flex-col md:flex-row md:gap-12"
-                  variants={itemVariants}
-                >
-                  <div className="w-full mb-4">
+                {/* Name and Email */}
+                <div className="flex flex-col md:flex-row md:gap-12">
+                  <motion.div className="w-full mb-4" variants={itemVariants}>
                     <div className="Name-content flex bg-gray-200 rounded-full py-3 px-3 items-center">
                       <img
                         src="https://cdn-icons-png.flaticon.com/128/1067/1067566.png"
@@ -106,8 +115,8 @@ const Contact = () => {
                         required
                       />
                     </div>
-                  </div>
-                  <div className="w-full mb-4">
+                  </motion.div>
+                  <motion.div className="w-full mb-4" variants={itemVariants}>
                     <div className="email-contents flex bg-gray-200 rounded-full py-3 px-3 items-center">
                       <img
                         src="https://cdn-icons-png.flaticon.com/128/2165/2165061.png"
@@ -125,15 +134,12 @@ const Contact = () => {
                         autoComplete="on"
                       />
                     </div>
-                  </div>
-                </motion.div>
+                  </motion.div>
+                </div>
 
-                
-                <motion.div
-                  className="second-form-content flex flex-col md:flex-row md:gap-12"
-                  variants={itemVariants}
-                >
-                  <div className="w-full mb-4">
+                {/* Phone and College */}
+                <div className="flex flex-col md:flex-row md:gap-12">
+                  <motion.div className="w-full mb-4" variants={itemVariants}>
                     <div className="Phone-content flex bg-gray-200 rounded-full py-3 px-3 items-center">
                       <img
                         src="https://cdn-icons-png.flaticon.com/128/15634/15634417.png"
@@ -151,8 +157,8 @@ const Contact = () => {
                         autoComplete="on"
                       />
                     </div>
-                  </div>
-                  <div className="w-full mb-4">
+                  </motion.div>
+                  <motion.div className="w-full mb-4" variants={itemVariants}>
                     <div className="collete-content flex bg-gray-200 rounded-full py-3 px-3">
                       <input
                         type="text"
@@ -162,11 +168,11 @@ const Contact = () => {
                         autoComplete="on"
                       />
                     </div>
-                  </div>
-                </motion.div>
+                  </motion.div>
+                </div>
               </div>
 
-             
+              {/* Message */}
               <motion.div className="w-full mb-4" variants={itemVariants}>
                 <textarea
                   id="message"
@@ -179,7 +185,7 @@ const Contact = () => {
                 ></textarea>
               </motion.div>
 
-              
+              {/* Error or Success Messages */}
               {formError && (
                 <motion.p
                   className="text-red-500 text-sm mb-4"
@@ -197,7 +203,7 @@ const Contact = () => {
                 </motion.p>
               )}
 
-              
+              {/* Submit Button */}
               <motion.div className="w-full flex justify-center mt-6" variants={itemVariants}>
                 <button
                   type="submit"
@@ -206,17 +212,7 @@ const Contact = () => {
                   Submit
                 </button>
               </motion.div>
-            </form>
-            <motion.div
-              className="absolute-icon absolute bottom-14 md:bottom-6 right-0 md:mb-4 md:mr-4"
-              variants={itemVariants}
-            >
-              <img
-                src="https://cdn-icons-png.flaticon.com/128/924/924915.png"
-                alt="icon"
-                className="w-24 md:w-44"
-              />
-            </motion.div>
+            </motion.form>
           </div>
         </motion.div>
       </motion.div>

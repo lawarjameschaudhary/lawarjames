@@ -40,7 +40,7 @@ function Project() {
             <div className="bg-gray-200 p-4 text-center">
               <h3 className="text-2xl md:text-3xl font-bold">Ecommerce Site</h3>
             </div>
-            <div className="p-6 text-sm md:text-base leading-relaxed">
+            <div className="p-6 text-sm md:text-base leading-relaxed text-gray-500">
               I have created this E-Commerce site using HTML, CSS, JavaScript,
               React Js, Tailwind CSS, EmailJs, and Local Storage React. The
               owner can manage items, change prices, and get order notifications
@@ -65,7 +65,7 @@ function Project() {
             <div className="bg-gray-200 p-4 text-center">
               <h3 className="text-2xl md:text-3xl font-bold">MeroKaam</h3>
             </div>
-            <div className="p-6 text-sm md:text-base leading-relaxed">
+            <div className="p-6 text-sm md:text-base leading-relaxed text-gray-500">
               MeroKaam is a job-search platform built with HTML, CSS,
               JavaScript, React, Tailwind CSS, NodeJs, ExpressJs, and MongoDB.
               It connects job seekers with employers and offers features to
@@ -89,7 +89,7 @@ function Project() {
             <div className="bg-gray-200 p-4 text-center">
               <h3 className="text-2xl md:text-3xl font-bold">Swiper Project</h3>
             </div>
-            <div className="p-6 text-sm md:text-base leading-relaxed">
+            <div className="p-6 text-sm md:text-base leading-relaxed text-gray-500">
               Swiper Project is a platform built with HTML, CSS, and JavaScript.
               It uses SwiperJs for animations and ensures responsiveness for all
               screen sizes.

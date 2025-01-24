@@ -5,11 +5,11 @@ import AOS from "aos";
 const About = () => {
   // Initialize AOS
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); 
+    AOS.init({ duration: 1000, once: true });
   }, []);
 
   return (
-    <div className="bg-black p-6 flex flex-col items-center pb-20 md:pb-28 border-b-[0.1px] border-blue-300">
+    <div className="bg-black px-6 md:px-8 lg:px-12 py-10 flex flex-col items-center pb-20 md:pb-28 border-b-[0.1px] border-blue-300">
       {/* Title Section */}
       <div
         className="text-white font-extrabold text-3xl md:text-5xl lg:text-7xl flex justify-center mt-10 md:mt-16 pb-4"
@@ -20,28 +20,26 @@ const About = () => {
         </h1>
       </div>
 
-      
+      {/* Experience Section */}
       <div
-        className="w-full flex flex-col mt-8 sm:mt-28 items-center"
+        className="w-full flex flex-col mt-8 sm:mt-16 items-center"
         data-aos="fade-up"
         data-aos-delay="200"
       >
         <div className="bg-white w-full flex flex-col border-2 rounded-3xl shadow-lg max-w-5xl">
-        
+          {/* Company and Duration */}
           <div
-            className="flex flex-col md:flex-row justify-between items-center p-4 md:p-8 md:gap-2"
+            className="flex flex-col md:flex-row justify-between items-center p-6 md:p-8 gap-4"
             data-aos="zoom-in"
           >
-            <div className="flex items-center bg-gray-300 rounded-full p-2 w-full md:w-[500px] md:gap-4 md:p-4">
+            <div className="flex items-center bg-gray-300 rounded-full px-4 py-2 gap-4 w-full md:w-auto">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/2695/2695907.png"
+                alt="company-logo"
+                className="w-[50px] md:w-[70px]"
+              />
               <div>
-                <img
-                  src="https://cdn-icons-png.flaticon.com/128/2695/2695907.png"
-                  alt="info"
-                  className="w-[50px] md:w-[70px]"
-                />
-              </div>
-              <div className="text-left">
-                <h1 className="font-extrabold text-md md:text-xl lg:text-2xl leading-5 md:leading-7 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text">
+                <h1 className="font-extrabold text-lg md:text-xl lg:text-2xl bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text">
                   Obtained Infotech
                 </h1>
                 <div className="flex items-center gap-2">
@@ -50,55 +48,47 @@ const About = () => {
                     alt="location"
                     className="w-4 md:w-5"
                   />
-                  <p className="font-semibold text-xs md:text-xl">
+                  <p className="font-semibold text-sm md:text-base">
                     Narayangarh, Chitwan, Nepal
                   </p>
                 </div>
               </div>
             </div>
             <div
-              className="flex items-center bg-gray-300 px-4 py-2 rounded-full gap-4 mt-4 md:mt-0"
+              className="flex items-center bg-gray-300 px-4 py-2 rounded-full gap-4"
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <div className="w-8 md:w-10">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/128/18784/18784553.png"
-                  alt="date"
-                  className="w-full"
-                />
-              </div>
-              <div>
-                <h1 className="font-extrabold text-sm md:text-base leading-5 md:leading-7">
-                  FEB 2023-NOV 2023
-                </h1>
-              </div>
-            </div>
-          </div>
-
-          
-          <div
-            className="flex items-center gap-4 md:gap-6 px-4 md:px-8 mt-4"
-            data-aos="fade-left"
-            data-aos-delay="400"
-          >
-            <div className="w-8 md:w-10">
               <img
-                src="https://cdn-icons-png.flaticon.com/128/3242/3242257.png"
-                alt="coding"
-                className="w-full"
+                src="https://cdn-icons-png.flaticon.com/128/18784/18784553.png"
+                alt="date"
+                className="w-8 md:w-10"
               />
-            </div>
-            <div>
-              <h1 className="font-extrabold text-lg md:text-xl lg:text-2xl">
-                Web Developer
+              <h1 className="font-extrabold text-sm md:text-base">
+                FEB 2023 - NOV 2023
               </h1>
             </div>
           </div>
 
-          
+          {/* Role */}
           <div
-            className="text-part-about mt-4 p-4 font-bold"
+            className="flex items-center gap-4 md:gap-6 px-6 md:px-8 mt-4"
+            data-aos="fade-left"
+            data-aos-delay="400"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/3242/3242257.png"
+              alt="coding"
+              className="w-8 md:w-10"
+            />
+            <h1 className="font-extrabold text-xl md:text-2xl lg:text-3xl">
+              Web Developer
+            </h1>
+          </div>
+
+          {/* Responsibilities */}
+          <div
+            className="text-part-about mt-6 px-6 md:px-8 pb-6 font-bold"
             data-aos="fade-right"
             data-aos-delay="600"
           >

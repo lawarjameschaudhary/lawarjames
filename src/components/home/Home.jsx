@@ -50,10 +50,10 @@ const Home = ({ scrollToSection }) => {
             className='w-full max-w-[675px] mx-auto' />
 
           {[
-            { icon: 'https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo-thumbnail.png', label: 'Tailwind CSS', style: 'top-[20%] right-[5%] xl:-right-[5%]' },
-            { icon: 'https://w7.pngwing.com/pngs/548/34/png-transparent-adobe-photoshop-macos-bigsur-icon-thumbnail.png', label: 'Photoshop', style: 'top-[50%] md:top-[45%] -left-[5%] md:-left-[15%] lg:-left-[20%] xl:-left-[35%]' },
+            { icon: 'https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo-thumbnail.png', label: 'Tailwind CSS', style: 'top-[20%] right-[0%] xl:-right-[10%]' },
+            { icon: 'https://w7.pngwing.com/pngs/548/34/png-transparent-adobe-photoshop-macos-bigsur-icon-thumbnail.png', label: 'Photoshop', style: 'top-[50%] md:top-[45%] -left-[10%] md:-left-[15%] lg:-left-[20%] xl:-left-[35%]' },
             { icon: 'https://e7.pngegg.com/pngimages/780/934/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png', label: 'Html', style: 'top-[75%] sm:top-[70%] md:top-[75%] md:-left-[5%] lg:-left-[15%] xl:-left-[25%]' },
-            { icon: 'https://w7.pngwing.com/pngs/452/495/png-transparent-react-javascript-angularjs-ionic-github-text-logo-symmetry-thumbnail.png', label: 'ReactJS', style: 'top-[25%] md:top-[20%] sm:left-4 md:-left-0 xl:-left-[5%]' },
+            { icon: 'https://w7.pngwing.com/pngs/452/495/png-transparent-react-javascript-angularjs-ionic-github-text-logo-symmetry-thumbnail.png', label: 'ReactJS', style: 'top-[25%] -left-[1%]  md:top-[20%] sm:left-4 md:-left-0 xl:-left-[15%]' },
             { icon: 'https://w7.pngwing.com/pngs/640/199/png-transparent-javascript-logo-html-javascript-logo-angle-text-rectangle-thumbnail.png', label: 'JavaScript', style: 'top-[45%] -right-[5%] md:-right-[10%] lg:-right-[20%] xl:-right-[35%]' },
             { icon: 'https://w7.pngwing.com/pngs/393/49/png-transparent-css-logo.png', label: 'CSS', style: 'top-[70%] md:top-[75%] right-[10%] md:-right-0 lg:-right-[16%]' },
           ].map(({ icon, label, style }, index) => (

@@ -83,16 +83,14 @@ const Discription = () => {
           data-aos="fade-up"
           data-aos-delay="700"
         >
-          <h1 className="text-white p-3 md:p-7 text-md md:text-xl leading-7 md:leading-loose font-extralight md:font-light">
+          <h1 className="text-gray-300 p-3 md:p-7 text-md md:text-xl leading-7 md:leading-loose font-extralight md:font-light">
+            Hello, I'm Lawar James chaudhary. 
             A passionate front end developer graduating with{' '}
             <b className="font-extrabold">Bsc. Computer Science and Information Technology</b>{' '}
-            and experienced in crafting captivating digital experiences. My expertise lies in leveraging cutting-edge
-            technologies such as ReactJs, HTML, CSS, Tailwindcss, JavaScript, and Photoshop. I take pride in my ability
-            to design seamless user interfaces and components that align perfectly with the intended aesthetic, creating
-            responsive websites that adapt gracefully to any device. My skill set also extends to proficient API
-            integration, ensuring the seamless flow of data between the frontend and backend. In addition, I'm known for
-            writing clean, well-structured code that not only functions flawlessly but also enhances the overall
-            maintainability of projects. Thank you! I will deliver you the best website you are searching for.
+            I have acquired specialized knowledge and skills on ReactJS, HTML, CSS, Javascript, Tailwind CSS and Photoshop. 
+            These skills have helped me  to be placed in the field of web development. 
+            Making the responsive websites adaptable to any devices is one of my speciality. 
+            My skill set also extended to proficient API integration, ensuring seamless flow of data between fronted and backend.
           </h1>
         </div>
       </div>
