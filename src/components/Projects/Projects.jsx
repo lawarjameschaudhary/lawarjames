@@ -80,7 +80,7 @@ function Project() {
           data-aos="zoom-in"
           data-aos-delay="400"
         >
-          <a href="https://github.com/lawarjameschaudhary/Swiper-Project">
+          <a href="https://lawarjameschaudhary.github.io/Swiper-Project/">
             <img
               src="https://media.licdn.com/dms/image/v2/D4D22AQEubB_snUs9FQ/feedshare-shrink_2048_1536/B4DZSUDzNPHUAo-/0/1737650823423?e=1740614400&v=beta&t=KCXXIoa4zHt10SIizzmsV3lQMb0MECkm3dwH5fgLoB0"
               alt="Swiper Project"
