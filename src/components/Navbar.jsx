@@ -8,7 +8,7 @@ const Navbar = ({ scrollToSection }) => {
   };
 
   return (
-    <div className="bg-black fixed right-0 left-0 top-0 z-10">
+    <div className="bg-black sticky right-0 left-0 top-0 z-10">
 
       <div className="flex justify-between bg-white px-4 py-3 md:px-16 md:py-5 items-center flex-wrap">
 
@@ -21,7 +21,7 @@ const Navbar = ({ scrollToSection }) => {
         <div className="md:hidden">
           <button
             onClick={toggleButton}
-            className="bg-gradient-to-r from-blue-300 via-blue-600 to-blue-900 rounded-full p-2 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 focus:outline-none"
+            className=""
           >
             <img
               src="https://cdn-icons-png.flaticon.com/128/2976/2976215.png"
@@ -31,16 +31,14 @@ const Navbar = ({ scrollToSection }) => {
           </button>
         </div>
 
-        {/* Updated hover styles for desktop navigation */}
         <div className="hidden md:flex gap-8 font-bold text-base lg:text-xl">
           {['Home', 'Projects', 'About', 'Skills', 'Contact'].map((item, index) => (
             <button
               key={index}
               onClick={() => scrollToSection(item.toLowerCase().replace(/ /g, ''))}
-              className="relative text-black transition-all duration-300 ease-in-out group hover:text-blue-600 transform hover:scale-110"
+              className="relative text-black hover:text-blue-600"
             >
               {item}
-              {/* Underline effect */}
               <span className="absolute left-0 bottom-[-2px] w-0 h-[2px] bg-gradient-to-r from-blue-300 to-blue-600 transition-all duration-500 group-hover:w-full"></span>
             </button>
           ))}
