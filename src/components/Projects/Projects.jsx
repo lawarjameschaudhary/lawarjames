@@ -37,14 +37,33 @@ function Project() {
                 className="w-full h-56 object-cover"
               />
               <div className="bg-gray-200 p-4 text-center">
-                <h3 className="text-2xl md:text-3xl font-bold">Ecommerce Site</h3>
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-600">Ecommerce Site</h3>
               </div>
-              <div className="p-6 text-sm md:text-base leading-relaxed text-gray-500">
+              <div className="p-6 text-sm md:text-base leading-relaxed text-gray-500 flex flex-col gap-4">
+                <div className="text">
                 I have created this E-Commerce site using HTML, CSS, JavaScript,
                 React Js, Tailwind CSS, EmailJs, and Local Storage React. The
                 owner can manage items, change prices, and get order notifications
                 via email. Users can select items, add them to the cart, and place
                 orders.
+                </div>
+                <div className="flex flex-wrap gap-4">
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    Html
+                    </div>
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    CSS
+                    </div>
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    JavaScript
+                    </div>
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    ReactJs
+                    </div>
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    Db Json
+                    </div>
+                </div>
               </div>
             </a>
           </div>
@@ -62,13 +81,38 @@ function Project() {
                 className="w-full h-56 object-cover"
               />
               <div className="bg-gray-200 p-4 text-center">
-                <h3 className="text-2xl md:text-3xl font-bold">MeroKaam</h3>
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-600">MeroKaam</h3>
               </div>
-              <div className="p-6 text-sm md:text-base leading-relaxed text-gray-500">
+              <div className="p-6 text-sm md:text-base leading-relaxed text-gray-500 flex flex-col gap-4">
+                <div className="text">
                 MeroKaam is a job-search platform built with HTML, CSS,
                 JavaScript, React, Tailwind CSS, NodeJs, ExpressJs, and MongoDB.
                 It connects job seekers with employers and offers features to
                 manage job postings effortlessly.
+                </div>
+                <div className="technologies flex flex-wrap gap-4">
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    Html
+                    </div>
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    CSS
+                    </div>
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    JavaScript
+                    </div>
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    ReactJs
+                    </div>
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    NodeJS
+                    </div>
+                    <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    ExpressJs
+                    </div>
+                    <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    MongoDB
+                    </div>
+                </div>
               </div>
             </a>
           </div>
@@ -86,12 +130,28 @@ function Project() {
                 className="w-full h-56 object-cover"
               />
               <div className="bg-gray-200 p-4 text-center">
-                <h3 className="text-2xl md:text-3xl font-bold">Swiper Project</h3>
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-600">Swiper Project</h3>
               </div>
-              <div className="p-6 text-sm md:text-base leading-relaxed text-gray-500">
+              <div className="p-6 text-sm md:text-base leading-relaxed text-gray-500 flex flex-col gap-4">
+                <div className="text">
                 Swiper Project is a platform built with HTML, CSS, and JavaScript.
                 It uses SwiperJs for animations and ensures responsiveness for all
                 screen sizes.
+                </div>
+                <div className="flex flex-wrap gap-4">
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    Html
+                    </div>
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    CSS
+                    </div>
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    JavaScript
+                    </div>
+                  <div className="px-5 bg-gray-200 text-gray-500 font-semibold leading text-center rounded-3xl">
+                    SwiperJS
+                    </div>
+                </div>
               </div>
             </a>
           </div>

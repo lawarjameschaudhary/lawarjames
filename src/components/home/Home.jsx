@@ -7,7 +7,7 @@ const Home = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1.5, ease: 'easeInOut' }}
-      className='bg-[url(https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg?ga=GA1.1.255780563.1737648427&semt=ais_hybrid)] md:bg-cover bg-center text-white font-Fanta leading-9 pl-12 pr-12 pt-20 xl:pt-52 md:pt-40 border-b-[0.1px] border-blue-300 pb-20'>
+      className='bg-[url(https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg?ga=GA1.1.255780563.1737648427&semt=ais_hybrid)] md:bg-cover bg-transparent bg-center text-white font-Fanta leading-9 pl-12 pr-12 pt-20 xl:pt-52 md:pt-40 border-b-[0.1px] border-blue-300 pb-20'>
       <div className='flex flex-col items-center justify-center h-full gap-8 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'>
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
@@ -53,7 +53,7 @@ const Home = () => {
             { icon: 'https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo-thumbnail.png', label: 'Tailwind CSS', style: 'top-[20%] right-[1%] xl:-right-[10%]' },
             { icon: 'https://w7.pngwing.com/pngs/548/34/png-transparent-adobe-photoshop-macos-bigsur-icon-thumbnail.png', label: 'Photoshop', style: 'top-[50%] md:top-[45%] -left-[10%] md:-left-[15%] lg:-left-[20%] xl:-left-[35%]' },
             { icon: 'https://e7.pngegg.com/pngimages/780/934/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png', label: 'Html', style: 'top-[75%] sm:top-[70%] md:top-[75%] md:-left-[5%] lg:-left-[15%] xl:-left-[25%]' },
-            { icon: 'https://w7.pngwing.com/pngs/452/495/png-transparent-react-javascript-angularjs-ionic-github-text-logo-symmetry-thumbnail.png', label: 'ReactJS', style: 'top-[25%] -left-[1%]  md:top-[20%] sm:left-4 md:-left-0 xl:-left-[15%]' },
+            { icon: 'https://w7.pngwing.com/pngs/452/495/png-transparent-react-javascript-angularjs-ionic-github-text-logo-symmetry-thumbnail.png', label: 'ReactJS', style: 'top-[25%] -left-[7%]  md:top-[20%] sm:left-4 md:-left-0 xl:-left-[15%]' },
             { icon: 'https://w7.pngwing.com/pngs/640/199/png-transparent-javascript-logo-html-javascript-logo-angle-text-rectangle-thumbnail.png', label: 'JavaScript', style: 'top-[45%] -right-[5%] md:-right-[10%] lg:-right-[20%] xl:-right-[35%]' },
             { icon: 'https://w7.pngwing.com/pngs/393/49/png-transparent-css-logo.png', label: 'CSS', style: 'top-[70%] md:top-[75%] right-[10%] md:-right-0 lg:-right-[16%]' },
           ].map(({ icon, label, style }, index) => (

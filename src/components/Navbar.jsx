@@ -46,7 +46,7 @@ const Navbar = ({ scrollToSection }) => {
       </div>
 
       {navButtons && (
-        <div className="fixed top-16 right-0 bg-slate-600 w-full md:w-1/2 h-screen text-white p-6">
+        <div className="fixed top-14 right-0 bg-slate-600 w-full md:w-1/2 h-screen text-white p-6">
           <ul className="space-y-4">
             {[
               'Home',
