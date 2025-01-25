@@ -83,7 +83,7 @@ const Discuss = () => {
             </div>
             <div className="text-div text-xl sm:text-2xl font-medium">
               <h1 className="text-blue-700">
-                <a href="https://internepal.com.np/customer/2025-01-23-07-36-28-Lawar-James-Chaudhary.pdf">
+                <a href="https://internepal.com.np/customer/2025-01-25-08-25-20-Lawar-James-Chaudhary.pdf">
                   Resume
                 </a>
               </h1>
