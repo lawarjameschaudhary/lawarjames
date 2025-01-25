@@ -42,7 +42,7 @@ const Education = () => {
                   alt="date"
                   className="w-6 h-6"
                 />
-                <span className="font-bold text-sm md:text-base">2022-2025</span>
+                <span className="font-bold text-sm md:text-base">2022-2026</span>
               </div>
               <div className="flex items-center border-2 border-gray-300 rounded-full px-4 py-2 bg-gray-300 text-center">
                 <img

@@ -121,8 +121,7 @@ const About = () => {
                 className="w-6 md:w-8"
               />
               <h1 className="text-sm md:text-base lg:text-lg">
-                Proficiently worked with PHP and MySQL, handling CRUD operations
-                using PHP to manage and manipulate data effectively.
+                Worked with Restful api to integrate frontend and backend to share data 
               </h1>
             </div>
           </div>
