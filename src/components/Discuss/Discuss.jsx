@@ -5,7 +5,7 @@ const Discuss = () => {
   // Variants for child components
   const childVariants = {
     hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
+    visible: { opacity: 1, y: 0, transition: { duration: 2 } },
   };
 
   return (
