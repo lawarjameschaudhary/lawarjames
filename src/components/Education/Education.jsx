@@ -29,7 +29,7 @@ const Education = () => {
         data-aos="fade-up"
         data-aos-delay="200"
       >
-        <div className="w-full max-w-5xl border-2 bg-gray-100 shadow-md rounded-2xl p-6">
+        <div className="w-full max-w-6xl border-2 bg-gray-100 shadow-md rounded-2xl p-6">
           <div className="flex flex-col gap-6">
             {/* Date and Graduation */}
             <div

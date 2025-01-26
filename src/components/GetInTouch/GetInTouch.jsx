@@ -70,7 +70,7 @@ const GetInTouch = () => {
               color: 'text-sky-700',
             },
             {
-              name: 'Email',
+              name: 'lawarjames67929@gmail.com',
               icon: 'https://cdn-icons-png.flaticon.com/128/5968/5968534.png',
               link: 'mailto:lawarjames077@gmail.com',
               color: '',

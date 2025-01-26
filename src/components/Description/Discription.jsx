@@ -13,7 +13,7 @@ const Discription = () => {
       className="bg-black flex flex-col items-center justify-center py-20 md:py-28 border-blue-300 border-b-[0.1px]"
     >
       {/* Wrapper for max width */}
-      <div className="mx-auto w-[90%] md:w-full max-w-7xl">
+      <div className="mx-auto w-[90%] md:w-full max-w-6xl">
         {/* Title Section */}
         <div
           className="text-white font-extrabold text-3xl md:text-5xl lg:text-7xl flex justify-center pb-4 md:pb-6 lg:pb-9"

@@ -26,7 +26,7 @@ const About = () => {
         data-aos="fade-up"
         data-aos-delay="200"
       >
-        <div className="bg-white w-full flex flex-col border-2 rounded-3xl shadow-lg max-w-5xl">
+        <div className="bg-white w-full flex flex-col border-2 rounded-3xl shadow-lg max-w-6xl">
           
           <div
             className="flex flex-col md:flex-row justify-between items-center p-6 md:p-8 gap-4"

@@ -74,7 +74,7 @@ const Contact = () => {
     >
       <motion.div
         ref={ref}
-        className="bg-blue-50 w-[95%] md:w-[80%] rounded-3xl flex flex-col items-center gap-10 md:gap-20 py-12 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+        className="bg-blue-50 w-[95%] md:w-[80%] rounded-3xl flex flex-col items-center gap-10 md:gap-20 py-12 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out max-w-screen-xl mx-auto"
         initial="hidden"
         animate={inView ? 'visible' : 'hidden'}
         variants={containerVariants}
@@ -97,7 +97,6 @@ const Contact = () => {
               animate={inView ? 'visible' : 'hidden'}
             >
               <div className="flex flex-col">
-                
                 <div className="flex flex-col md:flex-row md:gap-12">
                   <motion.div className="w-full mb-4" variants={itemVariants}>
                     <div className="Name-content flex bg-gray-200 rounded-full py-3 px-3 items-center">
@@ -137,7 +136,6 @@ const Contact = () => {
                   </motion.div>
                 </div>
 
-                
                 <div className="flex flex-col md:flex-row md:gap-12">
                   <motion.div className="w-full mb-4" variants={itemVariants}>
                     <div className="Phone-content flex bg-gray-200 rounded-full py-3 px-3 items-center">
@@ -184,7 +182,6 @@ const Contact = () => {
                 ></textarea>
               </motion.div>
 
-             
               {formError && (
                 <motion.p
                   className="text-red-500 text-sm mb-4"
@@ -202,7 +199,6 @@ const Contact = () => {
                 </motion.p>
               )}
 
-              
               <motion.div className="w-full flex justify-center mt-6" variants={itemVariants}>
                 <button
                   type="submit"
