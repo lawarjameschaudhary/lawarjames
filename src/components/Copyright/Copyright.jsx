@@ -22,7 +22,7 @@ const Copyright = () => {
         <p style={{ margin: '0.3rem 0', fontSize: '0.85rem', color: '#d1d1d1' }}> {/* Adjusted spacing */}
           Designed and developed by{' '}
           <a
-            href="www.linkedin.com/in/lawar-james-chaudhary-404a74284"
+            href="https://www.linkedin.com/in/lawar-james-chaudhary-404a74284/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
