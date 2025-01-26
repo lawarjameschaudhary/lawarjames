@@ -7,7 +7,7 @@ const Home = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1.5, ease: 'easeInOut' }}
-      className='bg-[url(https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg?ga=GA1.1.255780563.1737648427&semt=ais_hybrid)] md:bg-cover bg-transparent bg-center text-white font-Fanta leading-9 pl-12 pr-12 pt-14 xl:pt-20 md:pt-40 border-b-[0.1px] border-blue-300 pb-20'>
+      className='bg-[url(https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg?ga=GA1.1.255780563.1737648427&semt=ais_hybrid)] md:bg-cover bg-transparent bg-center text-white font-Fanta leading-9 pl-12 pr-12 pt-24 xl:pt-36 md:pt-40 border-b-[0.1px] border-blue-300 pb-20'>
       <div className='flex flex-col items-center justify-center h-full gap-8 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'>
         <motion.h1
           initial={{ opacity: 0, y: -50 }}

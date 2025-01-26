@@ -8,7 +8,7 @@ const Navbar = ({ scrollToSection }) => {
   };
 
   return (
-    <div className="bg-black sticky right-0 left-0 top-0 z-10">
+    <div className="bg-black fixed right-0 left-0 top-0 z-10">
       <div className="flex justify-between bg-white px-4 py-3 md:px-16 md:py-5 items-center flex-wrap">
         {/* Logo Section */}
         <div className="text-black text-lg md:text-4xl font-extrabold font-sans">
