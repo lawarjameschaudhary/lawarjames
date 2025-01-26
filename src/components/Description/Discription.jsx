@@ -45,7 +45,7 @@ const Discription = () => {
 
             <div className="text-white font-extrabold text-3xl md:text-5xl lg:text-6xl flex items-center text-center justify-center">
               <h1 className="bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text">
-                I Love
+                My Hobbies
               </h1>
             </div>
           </div>
