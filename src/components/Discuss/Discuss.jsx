@@ -10,7 +10,7 @@ const Discuss = () => {
 
   return (
     <div className="bg-black pt-20 md:pt-28 pb-20 md:pb-28 border-b border-blue-300">
-      {/* Wrapper for max width */}
+    
       <div className="mx-auto w-[95%] md:w-full max-w-7xl flex flex-col items-center">
         
         <motion.div
@@ -26,7 +26,7 @@ const Discuss = () => {
         </motion.div>
 
         <div className="Main-part mt-20 sm:mt-28 w-full bg-gray-800 rounded-2xl flex flex-col items-center gap-9 pb-20">
-          {/* Image Section */}
+         
           <motion.div
             className="image border-2 border-blue-500 rounded-full p-1 mt-16 sm:mt-20"
             variants={childVariants}
@@ -41,7 +41,7 @@ const Discuss = () => {
             />
           </motion.div>
 
-          {/* Name Section */}
+         
           <motion.div
             className="text-white font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl flex justify-center"
             variants={childVariants}
@@ -54,7 +54,7 @@ const Discuss = () => {
             </h1>
           </motion.div>
 
-          {/* Subtitle Section */}
+        
           <motion.div
             className="sub-topic text-white text-lg sm:text-2xl md:text-3xl lg:text-4xl font-extralight text-center"
             variants={childVariants}
@@ -65,7 +65,7 @@ const Discuss = () => {
             <h1>Frontend Developer | Web Designer | Graphics Designer</h1>
           </motion.div>
 
-          {/* Buttons Section */}
+       
           <motion.div
             className="buttons flex flex-col sm:flex-row gap-5 sm:gap-7"
             variants={childVariants}

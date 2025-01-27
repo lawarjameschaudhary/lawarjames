@@ -36,7 +36,7 @@ const GetInTouch = () => {
           </h1>
         </motion.div>
 
-        {/* Social Links Section */}
+       
         <motion.div
           className="flex gap-4 md:gap-6 lg:gap-8 flex-wrap justify-center mt-6 md:mt-12"
           initial="hidden"

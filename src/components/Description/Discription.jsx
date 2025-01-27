@@ -12,7 +12,7 @@ const Discription = () => {
       id="/about"
       className="bg-black flex flex-col items-center justify-center py-20 md:py-28 border-blue-300 border-b-[0.1px]"
     >
-      {/* Wrapper for max width */}
+      
       <div className="mx-auto w-[90%] md:w-full max-w-6xl">
         {/* Title Section */}
         <div
@@ -24,13 +24,13 @@ const Discription = () => {
           </h1>
         </div>
 
-        {/* Content Section */}
+       
         <div
           className="flex flex-col gap-5 md:gap-10"
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          {/* Hobbies Section */}
+         
           <div className="i-love-section">
             <div
               className="headier-section flex gap-8 md:gap-14 items-center"
@@ -51,7 +51,7 @@ const Discription = () => {
               </div>
             </div>
 
-            {/* Hobbies Icons */}
+          
             <div
               className="icons-section text-white flex gap-5 flex-wrap mt-10"
               data-aos="fade-up"
@@ -78,7 +78,7 @@ const Discription = () => {
             </div>
           </div>
 
-          {/* About Section */}
+        
           <div
             className="bg-gray-800 rounded-2xl"
             data-aos="fade-up"

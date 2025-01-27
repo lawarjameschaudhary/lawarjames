@@ -10,14 +10,14 @@ const Navbar = ({ scrollToSection }) => {
   return (
     <div className="bg-black fixed right-0 left-0 top-0 z-10">
       <div className="flex justify-between bg-white px-4 py-3 md:px-16 md:py-5 items-center flex-wrap">
-        {/* Logo Section */}
+        
         <div className="text-black text-lg md:text-4xl font-extrabold font-sans">
           <button onClick={() => scrollToSection("home")} className="hover:text-blue-600">
             Lawar
           </button>
         </div>
 
-        {/* Mobile Menu Button */}
+        
         <div className="md:hidden">
           <button onClick={toggleButton} className="">
             <img
@@ -28,7 +28,7 @@ const Navbar = ({ scrollToSection }) => {
           </button>
         </div>
 
-        {/* Desktop Navigation */}
+       
         <div className="hidden md:flex gap-8 font-bold text-base lg:text-xl">
           {["Home", "Projects", "About", "Skills", "Contact"].map((item, index) => (
             <button
@@ -43,7 +43,6 @@ const Navbar = ({ scrollToSection }) => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {navButtons && (
         <div className="fixed top-14 right-0 bg-slate-600 w-full md:w-1/2 h-screen text-white p-6">
           <ul className="space-y-4">

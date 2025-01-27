@@ -13,7 +13,7 @@ const Education = () => {
       id="education"
       className="flex flex-col px-4 md:px-8 lg:px-12 bg-black pb-20 border-b-[0.1px] border-blue-300"
     >
-      {/* Section Heading */}
+
       <div
         className="text-white font-extrabold text-3xl md:text-5xl lg:text-7xl flex justify-center mt-12 md:mt-20 lg:mt-28 pb-4 md:pb-6 lg:pb-9"
         data-aos="fade-up"
@@ -23,7 +23,6 @@ const Education = () => {
         </h1>
       </div>
 
-      {/* Content Wrapper */}
       <div
         className="flex flex-col justify-center mt-8 sm:mt-16 items-center"
         data-aos="fade-up"
@@ -31,7 +30,7 @@ const Education = () => {
       >
         <div className="w-full max-w-6xl border-2 bg-gray-100 shadow-md rounded-2xl p-6">
           <div className="flex flex-col gap-6">
-            {/* Date and Graduation */}
+ 
             <div
               className="flex flex-col md:flex-row justify-center gap-6 items-center px-4 pt-4"
               data-aos="zoom-in"
@@ -56,7 +55,7 @@ const Education = () => {
               </div>
             </div>
 
-            {/* Degree Info */}
+        
             <div
               className="flex flex-col md:flex-row gap-4 px-4"
               data-aos="fade-up"
@@ -70,7 +69,7 @@ const Education = () => {
               </div>
             </div>
 
-            {/* University Details */}
+         
             <div
               className="text-section px-4"
               data-aos="fade-up"
