@@ -1,15 +1,32 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Navbar = ({ scrollToSection }) => {
   const [navButtons, setNavButtons] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY>50)
+      {
+        setScrolled(true);
+      }
+      else{
+        setScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    };
+  },[]);
 
   const toggleButton = () => {
     setNavButtons(!navButtons);
   };
 
   return (
-    <div className="bg-black fixed right-0 left-0 top-0 z-10">
-      <div className="flex justify-between bg-white px-4 py-3 md:px-16 md:py-5 items-center flex-wrap">
+    <div className={`bg-black fixed right-0 left-0 top-0 opacity-100 z-10 transition-opacity duration-300 ${scrolled ? "bg-white opacity-95" : "bg-transparent opacity-100"}`}>
+      <div className="flex justify-between bg-[white] px-4 py-3 md:px-16 md:py-5 items-center flex-wrap">
         
         <div className="text-black text-lg md:text-4xl font-extrabold font-sans">
           <button onClick={() => scrollToSection("home")} className="hover:text-blue-600">

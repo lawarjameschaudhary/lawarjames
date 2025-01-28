@@ -26,7 +26,7 @@ function Project() {
           data-aos-delay="200"
         >
           <div data-aos="zoom-in">
-            <div className="bg-white rounded-lg overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out h-full">
+            <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out h-full">
               <a href="https://github.com/lawarjameschaudhary/Ecommerce-website">
                 <img
                   src="https://media.licdn.com/dms/image/v2/D4D22AQGdZNDSexCrjg/feedshare-shrink_2048_1536/B4DZQTG7BrHcAs-/0/1735487374945?e=1740614400&v=beta&t=oEsazpXDfxvBMlPU9m5liTY-Naq49yHcVG1mI8ER0Ko"
@@ -67,7 +67,7 @@ function Project() {
           </div>
 
           <div data-aos="zoom-in" data-aos-delay="200">
-            <div className="bg-white rounded-lg overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out h-full">
+            <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out h-full">
               <a href="https://github.com/lawarjameschaudhary/Hackathon-Project">
                 <img
                   src="https://media.licdn.com/dms/image/v2/D4D22AQFzl5v1f-7Oow/feedshare-shrink_2048_1536/B4DZQ0upT_GkAs-/0/1736051446549?e=1740614400&v=beta&t=skcWgq4NGhoEo5isxQDfmxqG_EUEO-qt9u2E575oH2E"
@@ -113,7 +113,7 @@ function Project() {
           </div>
 
           <div data-aos="zoom-in" data-aos-delay="400">
-            <div className="bg-white rounded-lg overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out h-full">
+            <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out h-full">
               <a href="https://lawarjameschaudhary.github.io/Swiper-Project/">
                 <img
                   src="https://media.licdn.com/dms/image/v2/D4D22AQEubB_snUs9FQ/feedshare-shrink_2048_1536/B4DZSUDzNPHUAo-/0/1737650823423?e=1740614400&v=beta&t=KCXXIoa4zHt10SIizzmsV3lQMb0MECkm3dwH5fgLoB0"
