@@ -38,7 +38,7 @@ const Discription = () => {
             >
               <div className="icon-section border-2 rounded-full border-blue-500 p-2">
                 <img
-                  src="https://lh3.googleusercontent.com/a/ACg8ocJq5BfZoZH-Qbs_FDCrHavshXm9-LTvVPSrPvHwQTvbu7hVdY0I=s576-c-no"
+                  src="https://lh3.googleusercontent.com/a/ACg8ocK7svk8wURS2FaxZidKLSwrZETm9Jh3ACl6Baj6nyDsxt5wT14=s576-c-no"
                   alt="Developer-image"
                   className="w-24 md:w-32 mx-auto rounded-full"
                 />

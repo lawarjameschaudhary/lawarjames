@@ -35,13 +35,13 @@ const Discuss = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <img
-              src="https://lh3.googleusercontent.com/a/ACg8ocJq5BfZoZH-Qbs_FDCrHavshXm9-LTvVPSrPvHwQTvbu7hVdY0I=s576-c-no"
+              src="https://lh3.googleusercontent.com/a/ACg8ocK7svk8wURS2FaxZidKLSwrZETm9Jh3ACl6Baj6nyDsxt5wT14=s576-c-no"
               alt="Developer-image"
               className="w-32 sm:w-40 md:w-48 mx-auto rounded-full"
             />
           </motion.div>
 
-         
+          
           <motion.div
             className="text-white font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl flex justify-center"
             variants={childVariants}
