@@ -33,6 +33,7 @@ const Home = () => {
           animate={{ opacity: 1, scale: 1 }}
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.5, ease: 'easeOut' }}
+          aria-label="Hire Lawar James Chaudhary"
           className='bg-transparent border border-blue-500 text-white p-3 px-8 shadow-md shadow-blue-500 rounded-full hover:shadow-lg hover:shadow-blue-500 hover:from-blue-400 hover:via-blue-800 hover:to-blue-950 hover:scale-105 duration-700 focus:outline-none hover:-translate-y-1'>
           <a href="https://www.linkedin.com/in/lawar-james-chaudhary-404a74284/" className='text-white'>
             Hire Me
@@ -70,6 +71,7 @@ const Home = () => {
             </motion.div>
           ))}
         </motion.div>
+        
       </div>
     </motion.div>
   );

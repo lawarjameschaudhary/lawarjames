@@ -29,7 +29,7 @@ function Project() {
             <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out h-full">
               <a href="https://github.com/lawarjameschaudhary/Ecommerce-website">
                 <img
-                  src="https://media.licdn.com/dms/image/v2/D4D22AQGdZNDSexCrjg/feedshare-shrink_2048_1536/B4DZQTG7BrHcAs-/0/1735487374945?e=1740614400&v=beta&t=oEsazpXDfxvBMlPU9m5liTY-Naq49yHcVG1mI8ER0Ko"
+                  src="https://media.licdn.com/dms/image/v2/D4D22AQGdZNDSexCrjg/feedshare-shrink_2048_1536/B4DZQTG7BrHcAs-/0/1735487374945?e=1745452800&v=beta&t=dMkpG8G65otK3nLUrdP-_2MZZb1M-LVqWqgJB7hgAFg"
                   alt="Ecommerce site"
                   className="w-full h-56 object-cover"
                 />
@@ -70,7 +70,7 @@ function Project() {
             <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out h-full">
               <a href="https://github.com/lawarjameschaudhary/Hackathon-Project">
                 <img
-                  src="https://media.licdn.com/dms/image/v2/D4D22AQFzl5v1f-7Oow/feedshare-shrink_2048_1536/B4DZQ0upT_GkAs-/0/1736051446549?e=1740614400&v=beta&t=skcWgq4NGhoEo5isxQDfmxqG_EUEO-qt9u2E575oH2E"
+                  src="https://media.licdn.com/dms/image/v2/D4D22AQFzl5v1f-7Oow/feedshare-shrink_2048_1536/B4DZQ0upT_GkAs-/0/1736051446549?e=1745452800&v=beta&t=1g5TMsXfQ252HUH--MZTk5Snp7mHWuD7ewOxXDt8BKk"
                   alt="MeroKaam"
                   className="w-full h-56 object-cover"
                 />
@@ -116,7 +116,7 @@ function Project() {
             <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out h-full">
               <a href="https://lawarjameschaudhary.github.io/Swiper-Project/">
                 <img
-                  src="https://media.licdn.com/dms/image/v2/D4D22AQEubB_snUs9FQ/feedshare-shrink_2048_1536/B4DZSUDzNPHUAo-/0/1737650823423?e=1740614400&v=beta&t=KCXXIoa4zHt10SIizzmsV3lQMb0MECkm3dwH5fgLoB0"
+                  src="https://media.licdn.com/dms/image/v2/D4D22AQEubB_snUs9FQ/feedshare-shrink_2048_1536/B4DZSUDzNPHUAo-/0/1737650823423?e=1745452800&v=beta&t=hjCiAOEL7Wmo6BkiKES1W2YkvJhb0YfFnQNQ3VIC1Lc"
                   alt="Swiper Project"
                   className="w-full h-56 object-cover"
                 />
