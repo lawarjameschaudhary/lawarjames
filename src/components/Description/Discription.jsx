@@ -38,7 +38,7 @@ const Discription = () => {
             >
               <div className="icon-section border-2 rounded-full border-blue-500 p-2">
                 <img
-                  src="https://scontent.fktm23-1.fna.fbcdn.net/v/t39.30808-6/271135120_600616894346087_5071994625557431309_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=18ExWjuWbccQ7kNvgE4WHXX&_nc_oc=AdmY2r85f04fdOUJdWmsxgTg2FkZLabG_DSYUmZqDQEPXiyOfLP_5YYD2Ukkq6fhPgnQM9P0cP0wKOPTqffqe2Lc&_nc_zt=23&_nc_ht=scontent.fktm23-1.fna&_nc_gid=vlsyWBi2vDYQkhk0QF5YAQ&oh=00_AYFfdESGGr4QOsLLXVpYv3dI7TgDOx3H1VRfvFEnDXzo1g&oe=67E321D7"
+                  src="https://scontent.fktm23-1.fna.fbcdn.net/v/t39.30808-6/271135120_600616894346087_5071994625557431309_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=dZgfJr0Rc2IQ7kNvgEbFKMO&_nc_oc=AdmrKEo3gAdVnk39WxKpIksHliaeq9RH-3lrZ6Z5PQL4Ep8U2ORYOpNh06OIBAmKX08FcvYmGNJDmhxy6VJXn059&_nc_zt=23&_nc_ht=scontent.fktm23-1.fna&_nc_gid=WVMm2Lnunv_dPvitD6u8TA&oh=00_AYFqMcQUWOQPQnuyfPsIwb-aRsj16kaJjl4EiNw_RujSSg&oe=67F28357"
                   alt="Developer-image"
                   className="w-24 md:w-32 mx-auto rounded-full"
                 />
