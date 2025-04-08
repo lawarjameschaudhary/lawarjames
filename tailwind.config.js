@@ -7,7 +7,8 @@ module.exports = {
         back : '.src/assets/Background.jpg',
       },
       fontFamily : {
-        Fanta : ['Rubik', 'sans-serif']
+        Fanta : ['Rubik', 'sans-serif'],
+        logo: ['Creepster', 'system-ui'],
       }
     },
   },

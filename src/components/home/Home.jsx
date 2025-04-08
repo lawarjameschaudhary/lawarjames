@@ -1,14 +1,45 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const Home = () => {
+  const roles = ["A Front End Developer", "Graphics Designer"];
+  const [displayText, setDisplayText] = useState('');
+  const [index, setIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    const currentRole = roles[index];
+    const typingSpeed = isDeleting ? 50 : 100;
+
+    const timeout = setTimeout(() => {
+      if (!isDeleting && displayText.length < currentRole.length) {
+        setDisplayText(currentRole.slice(0, displayText.length + 1));
+      } else if (isDeleting && displayText.length > 0) {
+        setDisplayText(currentRole.slice(0, displayText.length - 1));
+      } else {
+        if (!isDeleting) {
+          // Pause before deleting
+          setTimeout(() => setIsDeleting(true), 1500);
+        } else {
+          // Move to next role
+          setIsDeleting(false);
+          setIndex((prev) => (prev + 1) % roles.length);
+        }
+      }
+    }, typingSpeed);
+
+    return () => clearTimeout(timeout);
+  }, [displayText, isDeleting, index, roles]);
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1.5, ease: 'easeInOut' }}
       className='bg-[url(https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg?ga=GA1.1.255780563.1737648427&semt=ais_hybrid)] md:bg-cover bg-transparent bg-center text-white font-Fanta leading-9 pl-12 pr-12 pt-24 xl:pt-36 md:pt-40 border-b-[0.1px] border-blue-300 pb-20'>
+      
       <div className='flex flex-col items-center justify-center h-full gap-8 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'>
+
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -20,12 +51,13 @@ const Home = () => {
           </span>
         </motion.h1>
 
+        {/* Typewriter Effect */}
         <motion.h6
-          initial={{ opacity: 0, y: -30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1, duration: 1 }}
-          className='text-lg sm:text-xl md:text-2xl text-center'>
-          A Front End Developer | Graphics Designer
+          className=' font-bold text-lg sm:text-xl md:text-3xl bg-gradient-to-r from-blue-300 via-blue-600 to-blue-900 text-transparent bg-clip-text  text-center h-[2.5rem] sm:h-[3rem] md:h-[3.5rem]'
+          style={{ whiteSpace: 'pre-wrap' }}
+        >
+          {displayText}
+          <span className="animate-pulse">|</span>
         </motion.h6>
 
         <motion.button
@@ -40,6 +72,7 @@ const Home = () => {
           </a>
         </motion.button>
 
+        {/* Image and Icons Section */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -47,7 +80,7 @@ const Home = () => {
           className='relative'>
           <img
             src="https://lh3.googleusercontent.com/a/ACg8ocJq5BfZoZH-Qbs_FDCrHavshXm9-LTvVPSrPvHwQTvbu7hVdY0I=s576-c-no"
-            alt="Developer-iamge"
+            alt="Developer-image"
             className='w-full max-w-[675px] mx-auto hover:scale-105 transition-transform duration-700 ease-in-out' />
 
           {[
@@ -71,7 +104,7 @@ const Home = () => {
             </motion.div>
           ))}
         </motion.div>
-        
+
       </div>
     </motion.div>
   );
