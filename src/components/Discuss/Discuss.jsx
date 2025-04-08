@@ -35,7 +35,7 @@ const Discuss = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <img
-              src="https://scontent.fktm23-1.fna.fbcdn.net/v/t39.30808-6/271135120_600616894346087_5071994625557431309_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=dZgfJr0Rc2IQ7kNvgEbFKMO&_nc_oc=AdmrKEo3gAdVnk39WxKpIksHliaeq9RH-3lrZ6Z5PQL4Ep8U2ORYOpNh06OIBAmKX08FcvYmGNJDmhxy6VJXn059&_nc_zt=23&_nc_ht=scontent.fktm23-1.fna&_nc_gid=WVMm2Lnunv_dPvitD6u8TA&oh=00_AYFqMcQUWOQPQnuyfPsIwb-aRsj16kaJjl4EiNw_RujSSg&oe=67F28357"
+              src="https://lh3.googleusercontent.com/a/ACg8ocK7svk8wURS2FaxZidKLSwrZETm9Jh3ACl6Baj6nyDsxt5wT14=s576-c-no"
               alt="Developer-image"
               className="w-32 sm:w-40 md:w-48 mx-auto rounded-full"
             />
