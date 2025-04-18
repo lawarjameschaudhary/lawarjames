@@ -74,13 +74,13 @@ const Contact = () => {
     >
       <motion.div
         ref={ref}
-        className="bg-blue-50 w-[95%] md:w-[80%] rounded-3xl flex flex-col items-center gap-10 md:gap-20 py-12 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out max-w-screen-xl mx-auto"
+        className=" bg-white/10 backdrop-blur-xl border border-white/20 w-[95%] md:w-[80%] rounded-3xl flex flex-col items-center gap-10 md:gap-20 py-12 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out max-w-screen-xl mx-auto"
         initial="hidden"
         animate={inView ? 'visible' : 'hidden'}
         variants={containerVariants}
       >
         <motion.h1
-          className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-4"
+          className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-4 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text"
           variants={itemVariants}
         >
           Contact Me
@@ -99,7 +99,7 @@ const Contact = () => {
               <div className="flex flex-col">
                 <div className="flex flex-col md:flex-row md:gap-12">
                   <motion.div className="w-full mb-4" variants={itemVariants}>
-                    <div className="Name-content flex bg-gray-200 rounded-full py-3 px-3 items-center">
+                    <div className="Name-content flex bg-blue-100/100 rounded-full py-3 px-3 items-center">
                       <img
                         src="https://cdn-icons-png.flaticon.com/128/1067/1067566.png"
                         alt="icon"
@@ -109,14 +109,14 @@ const Contact = () => {
                         type="text"
                         name="from_name"
                         placeholder="Full Name"
-                        className="w-full h-8 md:h-12 bg-gray-200 p-2 rounded-full text-base sm:text-lg outline-none"
+                        className="w-full h-8 md:h-12 bg-blue-100/20 p-2 rounded-full text-base sm:text-lg outline-none"
                         autoComplete="on"
                         required
                       />
                     </div>
                   </motion.div>
                   <motion.div className="w-full mb-4" variants={itemVariants}>
-                    <div className="email-contents flex bg-gray-200 rounded-full py-3 px-3 items-center">
+                    <div className="email-contents flex bg-blue-100/100  rounded-full py-3 px-3 items-center">
                       <img
                         src="https://cdn-icons-png.flaticon.com/128/2165/2165061.png"
                         alt="icon"
@@ -126,7 +126,7 @@ const Contact = () => {
                         type="email"
                         name="from_email"
                         placeholder="Email"
-                        className="w-full bg-gray-200 h-8 md:h-12 p-2 rounded-full text-base sm:text-lg outline-none"
+                        className="w-full bg-blue-100/20 h-8 md:h-12 p-2 rounded-full text-base sm:text-lg outline-none"
                         pattern="[a-zA-Z0-9._%+-]+@gmail\.com"
                         title="Please enter a valid Gmail address"
                         required
@@ -138,7 +138,7 @@ const Contact = () => {
 
                 <div className="flex flex-col md:flex-row md:gap-12">
                   <motion.div className="w-full mb-4" variants={itemVariants}>
-                    <div className="Phone-content flex bg-gray-200 rounded-full py-3 px-3 items-center">
+                    <div className="Phone-content flex bg-gray-200 rounded-full py-3 px-3 items-center bg-blue-100/100">
                       <img
                         src="https://cdn-icons-png.flaticon.com/128/15634/15634417.png"
                         alt="icon"
@@ -148,7 +148,7 @@ const Contact = () => {
                         type="tel"
                         name="from_phone"
                         placeholder="Mobile No."
-                        className="w-full h-8 md:h-12 p-2 rounded-full text-base sm:text-lg bg-gray-200 outline-none"
+                        className="w-full h-8 md:h-12 p-2 rounded-full text-base sm:text-lg bg-blue-100/20 outline-none"
                         pattern="\d*"
                         title="Please enter a valid phone number (numbers only)"
                         required
@@ -157,12 +157,12 @@ const Contact = () => {
                     </div>
                   </motion.div>
                   <motion.div className="w-full mb-4" variants={itemVariants}>
-                    <div className="collete-content flex bg-gray-200 rounded-full py-3 px-3">
+                    <div className="collete-content flex bg-blue-100/100 rounded-full py-3 px-3">
                       <input
                         type="text"
                         name="from_college"
                         placeholder="Subject*"
-                        className="w-full h-8 md:h-12 bg-gray-200 p-2 rounded-full text-base sm:text-lg outline-none"
+                        className="w-full h-8 md:h-12 bg-blue-100/20 p-2 rounded-full text-base sm:text-lg outline-none"
                         autoComplete="on"
                       />
                     </div>
@@ -175,7 +175,7 @@ const Contact = () => {
                   id="message"
                   name="message"
                   rows="6"
-                  className="w-full bg-gray-200 border-gray-200 rounded-2xl p-3 text-base sm:text-lg focus:outline-none"
+                  className="w-full bg-blue-100/100 border-gray-200 rounded-2xl p-3 text-base sm:text-lg focus:outline-none"
                   required
                   autoComplete="on"
                   placeholder="Message"
