@@ -6,89 +6,107 @@ const GetInTouch = () => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.3, // Delay between animations of child elements
-      },
+      transition: { staggerChildren: 0.2 },
     },
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
+    hidden: { opacity: 0, y: 40 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.6, ease: 'easeOut' },
+    },
   };
+
+  const contacts = [
+    {
+      name: 'LinkedIn',
+      icon: 'https://cdn-icons-png.flaticon.com/128/145/145807.png',
+      link: 'https://www.linkedin.com/in/lawar-james-chaudhary-404a74284/',
+      ring: 'ring-sky-500',
+    },
+    {
+      name: 'Instagram',
+      icon: 'https://cdn-icons-png.flaticon.com/128/2111/2111463.png',
+      link: 'https://www.instagram.com/laiberchaudhary/',
+      ring: 'ring-pink-500',
+    },
+    {
+      name: 'GitHub',
+      icon: 'https://cdn-icons-png.flaticon.com/128/733/733553.png',
+      link: 'https://github.com/lawarjameschaudhary',
+      ring: 'ring-gray-700',
+    },
+    {
+      name: 'Facebook',
+      icon: 'https://cdn-icons-png.flaticon.com/128/145/145802.png',
+      link: 'https://www.facebook.com/profile2626201',
+      ring: 'ring-blue-600',
+    },
+  ];
 
   return (
     <div
-      id="social-media"
-      className="bg-black flex flex-col items-center border-b-[0.1px] md:py-28 pb-28 border-b-blue-300"
+      id="contact"
+      className="w-full bg-gradient-to-b from-black via-neutral-900 to-black py-24 px-6 text-white"
     >
-      <div className="technology w-full px-4" style={{ maxWidth: '1200px', margin: '0 auto' }}>
-        {/* Header Section */}
-        <motion.div
-          className="text-white text-center font-extrabold text-2xl md:text-4xl lg:text-7xl flex justify-center mt-12 pb-4"
-          variants={itemVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
-        >
-          <h1 className="bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text">
-            Contact With Me
-          </h1>
-        </motion.div>
+      <motion.div
+        className="text-center mb-20"
+        variants={itemVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
+        <h1 className="text-4xl md:text-6xl font-extrabold bg-gradient-to-r from-sky-400 to-blue-700 text-transparent bg-clip-text">
+          Let's Connect
+        </h1>
+        <p className="mt-4 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
+          I’d love to hear from you — whether it’s a project, collaboration or just a chat.
+        </p>
+      </motion.div>
 
-       
-        <motion.div
-          className="flex gap-4 md:gap-6 lg:gap-8 flex-wrap justify-center mt-6 md:mt-12"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
-          variants={containerVariants}
+      {/* Contact Cards */}
+      <motion.div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto"
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
+        {contacts.map((contact, index) => (
+          <motion.a
+            key={index}
+            href={contact.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            variants={itemVariants}
+            className={`group bg-white/5 backdrop-blur-md rounded-xl p-6 flex flex-col items-center justify-center transition-transform transform hover:-translate-y-2 hover:shadow-xl hover:shadow-${contact.ring} hover:bg-white/10 ring-1 ${contact.ring} ring-opacity-30 hover:ring-opacity-70`}
+          >
+            <div className={`w-16 h-16 p-3 rounded-full bg-white/10 mb-4 ring-2 ${contact.ring}`}>
+              <img src={contact.icon} alt={contact.name} className="w-full h-full object-contain" />
+            </div>
+            <span className="text-xl font-medium">{contact.name}</span>
+          </motion.a>
+        ))}
+      </motion.div>
+
+      {/* Email Contact */}
+      <motion.div
+        className="mt-20 text-center"
+        variants={itemVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
+        <p className="text-lg text-gray-400 mb-4">Prefer email?</p>
+        <a
+          href="mailto:lawarjames077@gmail.com"
+          className="inline-block text-white text-lg font-semibold px-6 py-3 bg-gradient-to-r from-blue-500 to-sky-600 rounded-full hover:from-sky-600 hover:to-blue-700 transition-all duration-300 shadow-lg"
         >
-          {[
-            {
-              name: 'LinkedIn',
-              icon: 'https://cdn-icons-png.flaticon.com/128/3536/3536505.png',
-              link: 'https://www.linkedin.com/in/lawar-james-chaudhary-404a74284/',
-              color: 'text-sky-700',
-            },
-            {
-              name: 'Instagram',
-              icon: 'https://cdn-icons-png.flaticon.com/128/15713/15713420.png',
-              link: 'https://www.instagram.com/laiberchaudhary/',
-              color: 'text-red-600',
-            },
-            {
-              name: 'GitHub',
-              icon: 'https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png',
-              link: 'https://github.com/lawarjameschaudhary',
-              color: 'text-black',
-            },
-            {
-              name: 'Facebook',
-              icon: 'https://e7.pngegg.com/pngimages/991/568/png-clipart-facebook-logo-computer-icons-facebook-logo-facebook-thumbnail.png',
-              link: 'https://www.facebook.com/profile2626201',
-              color: 'text-sky-700',
-            },
-            {
-              name: 'lawarjames67929@gmail.com',
-              icon: 'https://cdn-icons-png.flaticon.com/128/5968/5968534.png',
-              link: 'mailto:lawarjames077@gmail.com',
-              color: '',
-            },
-          ].map((item, index) => (
-            <motion.div key={index} variants={itemVariants}>
-              <div className="bg-white flex rounded-full px-4 py-2 md:px-5 md:py-4 items-center gap-1 md:gap-3 hover:scale-105 transition-transform duration-300 ease-in-out">
-                <img src={item.icon} alt={item.name} className="w-8 md:w-12" />
-                <div className={`text-md md:text-3xl font-extrabold ${item.color}`}>
-                  <a href={item.link} target="_blank" rel="noopener noreferrer">
-                    {item.name}
-                  </a>
-                </div>
-              </div>
-            </motion.div>
-          ))}
-        </motion.div>
-      </div>
+          lawarjames67929@gmail.com
+        </a>
+      </motion.div>
     </div>
   );
 };
