@@ -18,36 +18,37 @@ const Skills = () => {
   };
 
   return (
-    <div className='bg-black flex flex-col items-center border-b-[0.1px] md:p-28 border-b-blue-300 pb-28'>
-     
+    <div className="bg-black flex flex-col items-center border-b-[0.1px] md:p-28 border-b-blue-300 pb-28">
+
+      {/* Skills Section Title */}
       <motion.div
-        className='text-white font-extrabold text-3xl md:text-5xl lg:text-7xl flex justify-center mt-12 pb-4 md:pb-6'
+        className="text-white font-extrabold text-3xl md:text-5xl lg:text-7xl flex justify-center mt-12 pb-4 md:pb-6"
         variants={fadeIn}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
       >
-        <h1 className='bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text'>
-          Skills
+        <h1 className="bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 text-transparent bg-clip-text">
+          My Skills
         </h1>
       </motion.div>
 
-    
+      {/* Designing Tools Section */}
       <motion.div
-        className='design-tool flex flex-col items-center'
+        className="design-tool flex flex-col items-center"
         variants={fadeInStagger}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
       >
         <motion.h1
-          className='text-center font-extrabold text-2xl md:text-4xl lg:text-5xl flex justify-center mt-6 md:mt-12 pb-4 bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text'
+          className="text-center font-extrabold text-2xl md:text-4xl lg:text-5xl flex justify-center mt-6 md:mt-12 pb-4 bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text"
           variants={fadeIn}
         >
-          Designing Tools I Use
+          Design Tools I Use
         </motion.h1>
         <motion.div
-          className='flex gap-6 md:gap-8 lg:gap-11 flex-wrap mt-6 md:mt-12 items-center justify-center'
+          className="flex gap-6 md:gap-8 lg:gap-11 flex-wrap mt-6 md:mt-12 items-center justify-center"
           variants={fadeInStagger}
         >
           {[
@@ -55,33 +56,33 @@ const Skills = () => {
             { name: 'Photoshop', icon: 'https://cdn-icons-png.flaticon.com/128/5968/5968520.png' },
           ].map((tool, index) => (
             <motion.div
-              className='bg-white flex rounded-full px-4 py-2 md:px-5 md:py-4 items-center gap-3 md:gap-5'
+              className="bg-white flex rounded-full px-6 py-3 md:px-8 md:py-5 items-center gap-4 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
               key={index}
               variants={fadeIn}
             >
-              <img src={tool.icon} alt={tool.name} className='w-10 md:w-12' />
-              <div className="text-lg md:text-xl font-medium">{tool.name}</div>
+              <img src={tool.icon} alt={tool.name} className="w-12 md:w-14" />
+              <div className="text-lg md:text-xl font-semibold text-gray-800">{tool.name}</div>
             </motion.div>
           ))}
         </motion.div>
       </motion.div>
 
-     
+      {/* Technology Section */}
       <motion.div
-        className='technology'
+        className="technology mt-12"
         variants={fadeInStagger}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
       >
         <motion.h1
-          className='text-white text-center font-extrabold text-2xl md:text-4xl lg:text-5xl flex justify-center mt-12 pb-4 bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text'
+          className="text-white text-center font-extrabold text-2xl md:text-4xl lg:text-5xl flex justify-center mt-12 pb-4 bg-gradient-to-r from-blue-300 via-blue-600 to-blue-700 text-transparent bg-clip-text"
           variants={fadeIn}
         >
-          Technology I Use
+          Technologies I Use
         </motion.h1>
         <motion.div
-          className="flex gap-4 md:gap-6 lg:gap-8 flex-wrap justify-center mt-6 md:mt-12"
+          className="flex gap-8 md:gap-10 lg:gap-12 flex-wrap justify-center mt-6 md:mt-12"
           variants={fadeInStagger}
         >
           {[
@@ -91,12 +92,12 @@ const Skills = () => {
             { name: 'Tailwind CSS', icon: 'https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo-thumbnail.png' },
           ].map((tech, index) => (
             <motion.div
-              className="bg-white flex rounded-full px-4 py-2 md:px-5 md:py-4 items-center gap-1 md:gap-3"
+              className="bg-white flex rounded-full px-6 py-3 md:px-8 md:py-5 items-center gap-4 transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
               key={index}
               variants={fadeIn}
             >
-              <img src={tech.icon} alt={tech.name} className='w-8 md:w-12' />
-              <div className="text-md md:text-xl font-medium">{tech.name}</div>
+              <img src={tech.icon} alt={tech.name} className="w-12 md:w-14" />
+              <div className="text-md md:text-xl font-semibold text-gray-800">{tech.name}</div>
             </motion.div>
           ))}
         </motion.div>
